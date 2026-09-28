@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagramas - Gonzalez Aguilar Victor Hugo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cinzel', serif;
+            background: #000000;
+            background-image: radial-gradient(circle, #330000 0%, #0a0000 60%, #000000 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border: 6px solid #800000;
+        }
+
+        .header-card {
+            text-align: center;
+            background: rgba(15, 0, 0, 0.9);
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.5), inset 0 0 15px rgba(128, 0, 0, 0.8);
+            padding: 30px 20px;
+            border-radius: 6px;
+            max-width: 600px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-family: 'UnifrakturMaguntia', cursive;
+            color: #ff0000;
+            font-size: 2.5rem;
+            font-weight: normal;
+            text-shadow: 0 0 12px #ff0000, 0 0 25px #800000;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .student-info {
+            color: #ff6666;
+            font-size: 1.2rem;
+            font-weight: 900;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            width: 100%;
+            max-width: 480px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 20px;
+            background: linear-gradient(135deg, #4d0000 0%, #1a0000 100%);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 2px solid #ff0000;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9), 0 0 10px rgba(255, 0, 0, 0.4);
+            transition: all 0.25s ease;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #990000 0%, #4d0000 100%);
+            color: #ffffff;
+            box-shadow: 0 0 25px #ff0000, inset 0 0 10px #ff3333;
+            transform: translateY(-3px);
+            border-color: #ff6666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-card">
+        <h1>Gonzalez Aguilar Victor Hugo</h1>
+        <p class="student-info">4.-A TI BIS</p>
+    </div>
+
+    <div class="container">
+        <a class="btn" href="Gonzalez_Victor_DiagramFlow_Idea.html">
+            1. Diagrama Idea HTML
+        </a>
+
+        <a class="btn" href="Gonzalez_Victor_Diagram_Customers.html">
+            2. Diagrama de Clientes
+        </a>
+
+        <a class="btn" href="Gonzalez_Victor_Business_Money.html">
+            3. Diagrama Negocio y Dinero
+        </a>
+    </div>
+
+</body>
+</html>
