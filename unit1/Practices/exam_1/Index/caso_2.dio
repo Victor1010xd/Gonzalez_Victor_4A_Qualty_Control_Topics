@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="PncNKxc5XEJcK2Y3syI9" name="Page-1">
+        <mxGraphModel dx="675" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
+                    <mxGeometry height="170" width="90" x="50" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Base de Datos" vertex="1">
+                    <mxGeometry height="150" width="70" x="570" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Registrar usuario" vertex="1">
+                    <mxGeometry height="80" width="120" x="230" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Iniciar sesion" vertex="1">
+                    <mxGeometry height="80" width="120" x="280" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Actualizar perfil del cliente&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="80" width="120" x="350" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&amp;nbsp;Consultar historial de pedidos" vertex="1">
+                    <mxGeometry height="80" width="120" x="240" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-8" edge="1" parent="1" source="Bv5jMhwsjDJhOTQza-qv-1" style="endArrow=classic;html=1;" target="Bv5jMhwsjDJhOTQza-qv-4" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="320" y="360" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-9" edge="1" parent="1" source="Bv5jMhwsjDJhOTQza-qv-1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Bv5jMhwsjDJhOTQza-qv-5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="320" y="360" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-11" edge="1" parent="1" source="Bv5jMhwsjDJhOTQza-qv-1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Bv5jMhwsjDJhOTQza-qv-7" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="320" y="360" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-12" edge="1" parent="1" source="Bv5jMhwsjDJhOTQza-qv-2" style="endArrow=classic;html=1;" target="Bv5jMhwsjDJhOTQza-qv-7" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="320" y="360" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bv5jMhwsjDJhOTQza-qv-13" edge="1" parent="1" source="Bv5jMhwsjDJhOTQza-qv-6" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Bv5jMhwsjDJhOTQza-qv-1" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="320" y="360" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

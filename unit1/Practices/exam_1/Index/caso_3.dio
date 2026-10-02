@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="9NeFHi45_hEJ6DrVUxLS" name="Page-1">
+        <mxGraphModel dx="675" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-10" edge="1" parent="1" source="l-d7XMkF8pdeDBns70PT-1" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l-d7XMkF8pdeDBns70PT-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-12" edge="1" parent="1" source="l-d7XMkF8pdeDBns70PT-1" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="l-d7XMkF8pdeDBns70PT-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-14" edge="1" parent="1" source="l-d7XMkF8pdeDBns70PT-1" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="l-d7XMkF8pdeDBns70PT-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
+                    <mxGeometry height="130" width="70" x="120" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-13" edge="1" parent="1" source="l-d7XMkF8pdeDBns70PT-2" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l-d7XMkF8pdeDBns70PT-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Banco" vertex="1">
+                    <mxGeometry height="130" width="70" x="330" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-15" edge="1" parent="1" source="l-d7XMkF8pdeDBns70PT-3" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="l-d7XMkF8pdeDBns70PT-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Repartidor" vertex="1">
+                    <mxGeometry height="130" width="70" x="530" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Realizar pedido" vertex="1">
+                    <mxGeometry height="80" width="120" x="20" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Procesar pago" vertex="1">
+                    <mxGeometry height="80" width="120" x="225" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Recibibir ticket" vertex="1">
+                    <mxGeometry height="80" width="120" x="160" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="l-d7XMkF8pdeDBns70PT-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Generar orden de entrega" vertex="1">
+                    <mxGeometry height="80" width="120" x="360" y="410" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

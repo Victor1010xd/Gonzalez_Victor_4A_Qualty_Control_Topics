@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTIAL 1 INDEX - Gonzalez Aguilar Victor Hugo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cinzel', serif;
+            background: #000000;
+            background-image: radial-gradient(circle, #330000 0%, #0a0000 65%, #000000 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            border: 8px solid #800000;
+        }
+
+        .header-card {
+            text-align: center;
+            background: rgba(15, 0, 0, 0.9);
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.5), inset 0 0 15px rgba(128, 0, 0, 0.8);
+            padding: 25px;
+            border-radius: 6px;
+            max-width: 650px;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'UnifrakturMaguntia', cursive;
+            color: #ff0000;
+            font-size: 2.8rem;
+            text-shadow: 0 0 12px #ff0000, 0 0 25px #800000;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #ff6666;
+            font-size: 1.1rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .utd-text {
+            color: #d4af37;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-top: 5px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #ff0000;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+            margin: 15px 0;
+        }
+
+        .student-info {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            margin-top: 5px;
+        }
+
+        .student-email {
+            color: #aaaaaa;
+            font-size: 0.9rem;
+            font-family: sans-serif;
+            margin-top: 4px;
+        }
+
+        .section-title {
+            color: #ff3333;
+            font-size: 1.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 20px 0 10px 0;
+            text-align: center;
+            border-bottom: 1px solid #800000;
+            padding-bottom: 5px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 20px;
+            background: linear-gradient(135deg, #4d0000 0%, #1a0000 100%);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: 2px solid #ff0000;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9), 0 0 10px rgba(255, 0, 0, 0.4);
+            transition: all 0.25s ease;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #990000 0%, #4d0000 100%);
+            color: #ffffff;
+            box-shadow: 0 0 25px #ff0000, inset 0 0 10px #ff3333;
+            transform: translateY(-2px);
+            border-color: #ff6666;
+        }
+
+        .btn-mario {
+            border-color: #d4af37;
+            color: #d4af37;
+            background: linear-gradient(135deg, #332200 0%, #1a1100 100%);
+        }
+
+        .btn-mario:hover {
+            border-color: #fff8dc;
+            color: #ffffff;
+            box-shadow: 0 0 20px #d4af37;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-card">
+        <h1>PARTIAL 1 INDEX</h1>
+        <h2>QUALITY TOPICS FOR SOFTWARE DESIGN</h2>
+        <p class="utd-text">UTD</p>
+        
+        <!-- Imagen sube un nivel fuera de Index -->
+        <img src="../Screenshot_20250721_202949_Gallery.jpg" alt="Foto Gonzalez Aguilar Victor Hugo" class="profile-img">
+
+        <p class="student-info">Gonzalez Aguilar Victor Hugo</p>
+        <p class="student-info" style="font-size: 0.95rem; color: #ff6666;">4.-A TI BIS</p>
+        <p class="student-email">victor_3127230593@utd.edu.mx</p>
+    </div>
+
+    <div class="container">
+        
+        <!-- JUEGO DE MARIO (Sube a exam_1 y entra a mario/) -->
+        <a class="btn btn-mario" href="../mario/index.html">
+            🎮 PLAY MARIO
+        </a>
+
+        <!-- DIAGRAMAS DE FLUJO (Están en la misma carpeta Index) -->
+        <div class="section-title">FLOWCHART SECTION</div>
+
+        <a class="btn" href="Gonzalez_Victor_DiagramFlow_Idea.html">
+            1. DIAGRAM 1 MAIN PROCESS
+        </a>
+
+        <a class="btn" href="Gonzalez_Victor_Diagram_Customers.html">
+            2. DIAGRAM CLIENTS
+        </a>
+
+        <a class="btn" href="Gonzalez_Victor_Business_Money.html">
+            3. DIAGRAM MONEY
+        </a>
+
+        <!-- CASOS DE USO (Están en la misma carpeta Index) -->
+        <div class="section-title">USE CASE DIAGRAM SECTION</div>
+
+        <a class="btn" href="caso_1.html">
+            1. DIAGRAM PROGRAMMER ACTOR
+        </a>
+
+        <a class="btn" href="caso_2.html">
+            2. DIAGRAM 2 - CLIENT ACTOR
+        </a>
+
+        <a class="btn" href="caso_3.html">
+            3. DIAGRAM BANKER ACTOR
+        </a>
+
+    </div>
+
+</body>
+</html>
